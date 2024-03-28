@@ -1,3 +1,26 @@
-body{
-    background-color: blue;
+h1{
+    margin: 0 0 4rem;
+    text-align: center;
+    font-size: 1.6em;
+    color: white;
+    font-family: Arial, sans-serif;
+    animation: colorChange 3s infinite alternate;
+  } 
+
+  /* style.css */
+
+
+
+@keyframes colorChange {
+    0% {
+        color: blue;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: blue;
+    }
 }
+=======
+
